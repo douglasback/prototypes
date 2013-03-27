@@ -1,0 +1,69 @@
+/* 03 =LAYOUT
+------------------------- */
+h1 {
+    font-size: 2.2em;
+
+}
+
+.wings {
+
+}
+.branding {
+    padding: 1em;
+}
+@include respond-min(972px){
+    .proscenium,
+    .navbar {
+        width: 972px;
+        margin: 0 auto;
+    }
+}
+@include respond-min(972px){
+    .proscenium,
+    .navbar {
+        width: 972px;
+        margin: 0 auto;
+    }
+}
+
+.wrapper {
+    padding: 0 1em;
+    margin-top: 0;
+}
+.container {
+    padding: 1em 0;
+    margin-top: 0;
+}
+.img-block {
+    display: block;
+    margin: 0 auto;
+    
+
+}
+h1.super {
+    font-size: 60px;
+    margin-bottom: .5em;
+}
+.hero-unit {
+    padding: 0;
+    margin-top: 1em;
+    img {
+        max-width: 100%;
+    }
+    h1 {
+        // text-align: center;
+        margin: 0 0 5px 0;
+        padding: .5em 0;
+
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+    .navbar-inner {
+        padding-left: 0;
+        padding-right: 0;
+        @include round(0);
+    }
+}
+
