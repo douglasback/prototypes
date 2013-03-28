@@ -122,6 +122,22 @@ h1.super {
 .section {
   margin-top: 2em; }
 
+/*======================================
+=            Stickem Styles            =
+======================================*/
+.stickem-container {
+  position: relative; }
+
+.stickit {
+  margin-left: 0;
+  position: fixed;
+  top: 0; }
+
+.stickit-end {
+  bottom: 40px;
+  position: absolute;
+  left: 0; }
+
 /* 04 =HOMEPAGE
 ------------------------- */
 /* 05 =SUBPAGES

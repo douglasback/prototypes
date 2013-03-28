@@ -142,8 +142,28 @@ h1.super {
     margin-top: 2em;
 }
 
+/*======================================
+=            Stickem Styles            =
+======================================*/
 
 
+
+
+.stickem-container {
+  position: relative;
+}
+
+.stickit {
+    margin-left: 0;
+    position: fixed;
+    top: 0;
+}
+
+.stickit-end {
+    bottom: 40px;
+    position: absolute;
+    left: 0;
+}
 
 
 
