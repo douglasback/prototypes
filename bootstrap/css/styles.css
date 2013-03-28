@@ -41,7 +41,9 @@ h1.super {
 
 h1.super {
   font-size: 60px;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+  line-height: 1;
+  letter-spacing: -1px; }
 
 .hero-unit {
   padding: 0;
