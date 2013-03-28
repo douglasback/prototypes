@@ -44,6 +44,11 @@
     padding: 2em 0;
     margin-top: 0;
 }
+.container-fluid {
+    @include respond-max(767px){
+        padding: 0 .5em;
+    }
+}
 .img-block {
     display: block;
     margin: 0 auto;
