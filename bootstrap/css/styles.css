@@ -13,14 +13,14 @@ h1.super {
 
 /* 03 =LAYOUT
 ------------------------- */
-h1 {
-  font-size: 2.2em; }
-
 .media-caption {
   text-align: center; }
 
 .branding {
   padding: 1em; }
+  .branding h1 {
+    font-size: 2.2em;
+    margin-top: 0; }
 
 @media screen and (min-width: 972px) {
   .proscenium,
