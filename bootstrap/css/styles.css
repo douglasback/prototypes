@@ -61,6 +61,30 @@ h1.super {
   .hero-unit .carousel {
     max-width: 972px;
     margin: 0 auto; }
+  .hero-unit .carousel-caption {
+    padding: .5em; }
+    .hero-unit .carousel-caption h2 {
+      color: white;
+      font-size: 1.2em;
+      margin: 0; }
+    .hero-unit .carousel-caption p {
+      display: none; }
+    @media screen and (min-width: 480px) {
+      .hero-unit .carousel-caption {
+        padding: .6em; }
+        .hero-unit .carousel-caption h2 {
+          font-size: 1.8em;
+          margin: 0.25em 0; }
+        .hero-unit .carousel-caption p {
+          display: block; } }
+    @media screen and (min-width: 768px) {
+      .hero-unit .carousel-caption {
+        padding: 1em; }
+        .hero-unit .carousel-caption h2 {
+          font-size: 2.25em;
+          margin: 0.5em 0; }
+        .hero-unit .carousel-caption p {
+          display: block; } }
   .hero-unit img {
     max-width: 100%;
     display: block;
@@ -87,6 +111,12 @@ h1.super {
     .navbar.navbar-fixed-top {
       margin-left: 0;
       margin-right: 0; } }
+
+/*====================================
+=            Case Studies            =
+====================================*/
+.section {
+  margin-top: 2em; }
 
 /* 04 =HOMEPAGE
 ------------------------- */

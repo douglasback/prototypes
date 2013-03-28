@@ -61,6 +61,39 @@ h1.super {
         max-width: 972px;
         margin: 0 auto;
     }
+    .carousel-caption {
+        h2 {
+            color: white;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        p {
+            display: none;
+        }
+        padding: .5em;
+        @include respond-min(480px){
+            h2 {
+                font-size: 1.8em;
+                margin: .25em 0;
+            }
+            p {
+                display: block;
+
+            }
+            padding: .6em;
+        }
+        @include respond-min(768px){
+            h2 {
+                font-size: 2.25em;
+                margin: .5em 0;
+            }
+            p {
+                display: block;
+
+            }
+            padding: 1em;
+        }
+    }
     padding: 0;
     margin-top: 1em;
     img {
@@ -96,4 +129,16 @@ h1.super {
 
     }
 }
+
+/*====================================
+=            Case Studies            =
+====================================*/
+.section {
+    margin-top: 2em;
+}
+
+
+
+
+
 
