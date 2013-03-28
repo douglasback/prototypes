@@ -16,6 +16,16 @@ h1.super {
 .media-caption {
   text-align: center; }
 
+.navbar .brand {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin: 0; }
+  @media screen and (min-width: 480px) {
+    .navbar .brand {
+      line-height: 61px;
+      padding-top: 0;
+      padding-bottom: 0; } }
+
 .branding {
   padding: 1em; }
   .branding h1.super {
