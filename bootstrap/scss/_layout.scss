@@ -4,7 +4,9 @@ h1 {
     font-size: 2.2em;
 
 }
-
+.media-caption {
+    text-align: center;
+}
 .wings {
 
 }
@@ -14,14 +16,7 @@ h1 {
 @include respond-min(972px){
     .proscenium,
     .navbar {
-        width: 972px;
-        margin: 0 auto;
-    }
-}
-@include respond-min(972px){
-    .proscenium,
-    .navbar {
-        width: 972px;
+        width: 95%;
         margin: 0 auto;
     }
 }
@@ -31,7 +26,7 @@ h1 {
     margin-top: 0;
 }
 .container {
-    padding: 1em 0;
+    padding: 2em 0;
     margin-top: 0;
 }
 .img-block {
@@ -51,19 +46,31 @@ h1.super {
         max-width: 100%;
     }
     h1 {
-        // text-align: center;
         margin: 0 0 5px 0;
         padding: .5em 0;
+        
 
     }
 }
-
+@include respond-max(480px){
+    .hero-unit h1,
+    h1.super {
+        font-size: 2.5em;
+    }
+}
 .navbar {
     margin-bottom: 0;
     .navbar-inner {
         padding-left: 0;
         padding-right: 0;
         @include round(0);
+    }
+    @include respond-max(767px){
+        &.navbar-fixed-top {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
     }
 }
 

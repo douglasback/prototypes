@@ -6,7 +6,7 @@ CSS files should not be edited directly, as those edits will be overridden next 
 @import 'variables';
 
 // @import 'boilerplate';
-// @import 'common';
+@import 'common';
 @import 'layout';
 @import 'homepage';
 @import 'subpages';
