@@ -18,7 +18,7 @@ h1.super {
 
 .branding {
   padding: 1em; }
-  .branding h1 {
+  .branding h1.super {
     font-size: 2em;
     margin-top: 0; }
 
