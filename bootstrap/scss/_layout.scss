@@ -1,9 +1,5 @@
 /* 03 =LAYOUT
 ------------------------- */
-h1 {
-    font-size: 2.2em;
-
-}
 .media-caption {
     text-align: center;
 }
@@ -12,6 +8,12 @@ h1 {
 }
 .branding {
     padding: 1em;
+    
+    h1 {
+        font-size: 2.2em;
+        margin-top: 0;
+    }
+
 }
 @include respond-min(972px){
     .proscenium,
