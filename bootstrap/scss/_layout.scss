@@ -1,0 +1,76 @@
+/* 03 =LAYOUT
+------------------------- */
+h1 {
+    font-size: 2.2em;
+
+}
+.media-caption {
+    text-align: center;
+}
+.wings {
+
+}
+.branding {
+    padding: 1em;
+}
+@include respond-min(972px){
+    .proscenium,
+    .navbar {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.wrapper {
+    padding: 0 1em;
+    margin-top: 0;
+}
+.container {
+    padding: 2em 0;
+    margin-top: 0;
+}
+.img-block {
+    display: block;
+    margin: 0 auto;
+    
+
+}
+h1.super {
+    font-size: 60px;
+    margin-bottom: .5em;
+}
+.hero-unit {
+    padding: 0;
+    margin-top: 1em;
+    img {
+        max-width: 100%;
+    }
+    h1 {
+        margin: 0 0 5px 0;
+        padding: .5em 0;
+        
+
+    }
+}
+@include respond-max(480px){
+    .hero-unit h1,
+    h1.super {
+        font-size: 2.5em;
+    }
+}
+.navbar {
+    margin-bottom: 0;
+    .navbar-inner {
+        padding-left: 0;
+        padding-right: 0;
+        @include round(0);
+    }
+    @include respond-max(767px){
+        &.navbar-fixed-top {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+    }
+}
+
