@@ -10,7 +10,7 @@
     padding: 1em;
     
     h1 {
-        font-size: 2.2em;
+        font-size: 2em;
         margin-top: 0;
     }
 
@@ -42,10 +42,16 @@ h1.super {
     margin-bottom: .5em;
 }
 .hero-unit {
+    .carousel {
+        max-width: 972px;
+        margin: 0 auto;
+    }
     padding: 0;
     margin-top: 1em;
     img {
         max-width: 100%;
+        display: block;
+        margin: 0 auto;
     }
     h1 {
         margin: 0 0 5px 0;
