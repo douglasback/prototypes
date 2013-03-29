@@ -2,8 +2,8 @@ site: Blue State Digital
 permalink: /:title.html
 navigation:
 - text: Home
-  url: /index.html
+  url: ./index.html
 - text: About
-  url: /about.html
+  url: ./about.html
 - text: Case Studies
-  url: /case-study.html
+  url: ./case-study.html
