@@ -64,6 +64,7 @@ footer {
     h4,
     button {
         display: block;
+        
         text-align: center;
         @include respond-min(481px){
             text-align: left;
