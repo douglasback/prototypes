@@ -1,0 +1,16 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="nav-collapse">
+            <ul class="nav">
+                {% for node in site.navigation %}
+                <li {% if link.url == node.url %}class="active"{% endif %}><a href="{{node.url}}">{{node.text}}</a></li>
+                {% endfor %}
+            </ul>
+        </div> <!-- /.nav-collapse -->
+    </div>
+</div> <!-- /.navbar -->

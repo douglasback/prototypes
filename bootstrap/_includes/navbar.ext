@@ -1,0 +1,21 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <a class="brand" href="./index.html">Blue State Digital</a>
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="nav-collapse">
+            <ul class="nav">
+                {% for node in site.navigation %}
+                <li {% if page.url == node.url %}class="active"{% endif %}><a href="{{node.url}}">{{node.text}}</a></li>
+                {% endfor %}
+                <!-- <li><a href="./index.html">Home</a></li>
+                <li class="active"><a href="./about.html">About</a></li>
+                <li><a href="./case-study.html">Work</a></li>
+                <li><a href="./news.html">News</a></li> -->
+            </ul>
+        </div> <!-- /.nav-collapse -->
+    </div>
+</div> <!-- /.navbar -->

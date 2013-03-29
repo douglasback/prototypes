@@ -172,7 +172,7 @@ h1.super {
 .stickit {
   margin-left: 0;
   position: fixed;
-  top: 0; }
+  top: 62px; }
 
 .stickit-end {
   bottom: 40px;
