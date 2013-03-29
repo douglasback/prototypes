@@ -52,14 +52,27 @@
 .img-block {
     display: block;
     margin: 0 auto;
-    
-
+}
+.pull-left {
+    margin-right: 1em;
+}
+.pull-right {
+    margin-left: 1em;
 }
 h1.super {
     font-size: 60px;
     margin-bottom: .5em;
     line-height: 1;
     letter-spacing: -1px;
+
+    small {
+        font-size: 65%;
+        display: block;
+
+        @include respond-min(480px){
+            display: inline;
+        }
+    }
 }
 .hero-unit {
     .carousel {
