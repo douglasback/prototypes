@@ -49,6 +49,31 @@ h1.super {
   .container-fluid {
     padding: 0 0.5em; } }
 
+/*=====================================
+=            Footer Styles            =
+=====================================*/
+.footer-wrap {
+  background: #A8A8A8; }
+
+footer {
+  padding: 0 0.5em; }
+  footer h4,
+  footer button {
+    display: block;
+    text-align: center; }
+    @media screen and (min-width: 481px) {
+      footer h4,
+      footer button {
+        text-align: left; } }
+  footer ul {
+    display: none; }
+    @media screen and (min-width: 481px) {
+      footer ul {
+        display: block; } }
+  footer .contact {
+    font-family: Helvetica;
+    margin-top: 1.5em; }
+
 .img-block {
   display: block;
   margin: 0 auto; }
