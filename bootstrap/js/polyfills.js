@@ -14,7 +14,7 @@ Modernizr.load([
                     var $el = $(stick.$elem[0]);
                     $el.css('width', $el.parent().css('width'));
                 },
-                onUnstick: function(el){
+                onUnstick: function(stick){
                     var $el = $(stick.$elem[0]);
                     $el.css('width', 'auto');
                 }
