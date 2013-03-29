@@ -16,7 +16,7 @@ Modernizr.load([
                 },
                 onUnstick: function(stick){
                     var $el = $(stick.$elem[0]);
-                    $el.css('width', 'auto');
+                    $el.css('width', $el.parent().css('width'));
                 }
             });
         }())
