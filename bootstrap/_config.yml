@@ -1,0 +1,9 @@
+site: Blue State Digital
+permalink: /:title.html
+navigation:
+- text: Home
+  url: /index.html
+- text: About
+  url: /about.html
+- text: Case Studies
+  url: /case-study.html
