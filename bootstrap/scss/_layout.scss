@@ -6,11 +6,29 @@
 .wings {
 
 }
+.navbar {
+    .brand {
+        padding: .5em 1em;
+        font-size: 1em;
+        margin: 0;
+        @include respond-min(480px){
+            line-height: 61px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}
 .branding {
     padding: 1em;
+<<<<<<< HEAD
    
     h1 {
         font-size: 2.2em;
+=======
+    
+    h1.super {
+        font-size: 2em;
+>>>>>>> gh-pages
         margin-top: 0;
     }
 
@@ -32,21 +50,117 @@
     padding: 2em 0;
     margin-top: 0;
 }
+.container-fluid {
+    @include respond-max(767px){
+        padding: 0 .5em;
+    }
+}
+
+/*=====================================
+=            Footer Styles            =
+=====================================*/
+
+.footer-wrap {
+    background: #A8A8A8;
+
+}
+footer {
+    padding: 0 .5em;
+
+    h4,
+    button {
+        display: block;
+        
+        text-align: center;
+        @include respond-min(481px){
+            text-align: left;
+        }
+    }
+    ul {
+        display: none;
+        @include respond-min(481px){
+            display: block;
+        }
+    }
+
+    .contact {
+        font-family: Helvetica;
+        margin-top: 1.5em;
+    }
+}
+
 .img-block {
     display: block;
     margin: 0 auto;
-    
+}
 
+
+.pull-left {
+    margin-right: 1em;
+}
+.pull-right {
+    margin-left: 1em;
 }
 h1.super {
     font-size: 60px;
     margin-bottom: .5em;
+    line-height: 1;
+    letter-spacing: -1px;
+
+    small {
+        font-size: 65%;
+        display: block;
+
+        @include respond-min(480px){
+            display: inline;
+        }
+    }
 }
 .hero-unit {
+    .carousel {
+        max-width: 972px;
+        margin: 0 auto;
+    }
+    .carousel-caption {
+        h2 {
+            color: white;
+            font-size: 1.2em;
+            margin: 0;
+        }
+        p {
+            display: none;
+        }
+        padding: .5em;
+        @include respond-min(480px){
+            h2 {
+                font-size: 1.8em;
+                margin: .25em 0;
+            }
+            p {
+                display: block;
+
+            }
+            padding: .6em;
+        }
+        @include respond-min(768px){
+            h2 {
+                font-size: 2.25em;
+                margin: .5em 0;
+            }
+            p {
+                display: block;
+
+            }
+            padding: 1em;
+        }
+    }
+
     padding: 0;
     margin-top: 1em;
     img {
         max-width: 100%;
+        display: block;
+        margin: 0 auto;
     }
     h1 {
         margin: 0 0 5px 0;
@@ -76,4 +190,40 @@ h1.super {
 
     }
 }
+
+/*====================================
+=            Case Studies            =
+====================================*/
+.section {
+    margin-top: 2em;
+}
+.case-study-promo {
+    display: block;
+    margin: 1em 0;
+}
+
+/*======================================
+=            Stickem Styles            =
+======================================*/
+
+
+
+
+.stickem-container {
+  position: relative;
+}
+
+.stickit {
+    margin-left: 0;
+    position: fixed;
+    top: 0;
+}
+
+.stickit-end {
+    bottom: 40px;
+    position: absolute;
+    left: 0;
+}
+
+
 

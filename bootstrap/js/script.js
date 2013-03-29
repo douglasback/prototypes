@@ -10,5 +10,5 @@
         }
     }
     $(window).scroll(function(){navPinner();}).resize(function(){navPinner()});
-
+    
 })(jQuery, window)

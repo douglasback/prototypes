@@ -16,10 +16,20 @@ h1.super {
 .media-caption {
   text-align: center; }
 
+.navbar .brand {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  margin: 0; }
+  @media screen and (min-width: 480px) {
+    .navbar .brand {
+      line-height: 61px;
+      padding-top: 0;
+      padding-bottom: 0; } }
+
 .branding {
   padding: 1em; }
-  .branding h1 {
-    font-size: 2.2em;
+  .branding h1.super {
+    font-size: 2em;
     margin-top: 0; }
 
 @media screen and (min-width: 972px) {
@@ -35,19 +45,91 @@ h1.super {
   padding: 2em 0;
   margin-top: 0; }
 
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    padding: 0 0.5em; } }
+
+/*=====================================
+=            Footer Styles            =
+=====================================*/
+.footer-wrap {
+  background: #A8A8A8; }
+
+footer {
+  padding: 0 0.5em; }
+  footer h4,
+  footer button {
+    display: block;
+    text-align: center; }
+    @media screen and (min-width: 481px) {
+      footer h4,
+      footer button {
+        text-align: left; } }
+  footer ul {
+    display: none; }
+    @media screen and (min-width: 481px) {
+      footer ul {
+        display: block; } }
+  footer .contact {
+    font-family: Helvetica;
+    margin-top: 1.5em; }
+
 .img-block {
   display: block;
   margin: 0 auto; }
 
+.pull-left {
+  margin-right: 1em; }
+
+.pull-right {
+  margin-left: 1em; }
+
 h1.super {
   font-size: 60px;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+  line-height: 1;
+  letter-spacing: -1px; }
+  h1.super small {
+    font-size: 65%;
+    display: block; }
+    @media screen and (min-width: 480px) {
+      h1.super small {
+        display: inline; } }
 
 .hero-unit {
   padding: 0;
   margin-top: 1em; }
+  .hero-unit .carousel {
+    max-width: 972px;
+    margin: 0 auto; }
+  .hero-unit .carousel-caption {
+    padding: .5em; }
+    .hero-unit .carousel-caption h2 {
+      color: white;
+      font-size: 1.2em;
+      margin: 0; }
+    .hero-unit .carousel-caption p {
+      display: none; }
+    @media screen and (min-width: 480px) {
+      .hero-unit .carousel-caption {
+        padding: .6em; }
+        .hero-unit .carousel-caption h2 {
+          font-size: 1.8em;
+          margin: 0.25em 0; }
+        .hero-unit .carousel-caption p {
+          display: block; } }
+    @media screen and (min-width: 768px) {
+      .hero-unit .carousel-caption {
+        padding: 1em; }
+        .hero-unit .carousel-caption h2 {
+          font-size: 2.25em;
+          margin: 0.5em 0; }
+        .hero-unit .carousel-caption p {
+          display: block; } }
   .hero-unit img {
-    max-width: 100%; }
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; }
   .hero-unit h1 {
     margin: 0 0 5px 0;
     padding: 0.5em 0; }
@@ -70,6 +152,32 @@ h1.super {
     .navbar.navbar-fixed-top {
       margin-left: 0;
       margin-right: 0; } }
+
+/*====================================
+=            Case Studies            =
+====================================*/
+.section {
+  margin-top: 2em; }
+
+.case-study-promo {
+  display: block;
+  margin: 1em 0; }
+
+/*======================================
+=            Stickem Styles            =
+======================================*/
+.stickem-container {
+  position: relative; }
+
+.stickit {
+  margin-left: 0;
+  position: fixed;
+  top: 0; }
+
+.stickit-end {
+  bottom: 40px;
+  position: absolute;
+  left: 0; }
 
 /* 04 =HOMEPAGE
 ------------------------- */
