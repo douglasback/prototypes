@@ -122,6 +122,10 @@ h1.super {
 .section {
   margin-top: 2em; }
 
+.case-study-promo {
+  display: block;
+  margin: 1em 0; }
+
 /*======================================
 =            Stickem Styles            =
 ======================================*/
