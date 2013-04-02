@@ -10,3 +10,5 @@ navigation:
   url: ./approach.html
 - text: Our Work
   url: ./case-study.html
+- text: Office Interior
+  url: ./office-interior.html
