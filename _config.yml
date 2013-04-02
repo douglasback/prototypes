@@ -3,7 +3,9 @@ permalink: /:title.html
 navigation:
 - text: Home
   url: ./index.html
-- text: About
+- text: About Us
   url: ./about.html
-- text: Case Studies
+- text: Our Approach
+  url: ./approach.html
+- text: Our Work
   url: ./case-study.html
