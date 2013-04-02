@@ -9,7 +9,7 @@ Modernizr.load([
                 container: '.stickem-container',
                 stickClass: 'stickit',
                 endStickClass: 'stickit-end',
-                offset: 62,
+                offset: 92,
                 onStick: function(stick){
                     var $el = $(stick.$elem[0]);
                     $el.css('width', $el.parent().css('width'));

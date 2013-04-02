@@ -1,6 +1,6 @@
 site: Blue State Digital
 permalink: /:title.html
-exclude: ['node_modules']
+exclude: ['node_modules', 'scss', 'package.json', 'Gruntfile.js']
 navigation:
 - text: Home
   url: ./index.html

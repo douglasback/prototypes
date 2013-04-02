@@ -205,6 +205,7 @@ h1.super {
 
 .stickem-container {
   position: relative;
+  padding-top: 1.5em;
 }
 
 .stickit {
@@ -214,9 +215,13 @@ h1.super {
 }
 
 .stickit-end {
-    bottom: 40px;
+    bottom: 22px;
     position: absolute;
     left: 0;
+}
+.stickit-end.stickem-right {
+    right: 0;
+    left: auto;
 }
 
 
