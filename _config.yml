@@ -1,5 +1,6 @@
 site: Blue State Digital
 permalink: /:title.html
+exclude: ['node_modules']
 navigation:
 - text: Home
   url: ./index.html
