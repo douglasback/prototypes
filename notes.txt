@@ -1,0 +1,6 @@
+About Us:
+	- Redo "Our Services" to do more "mad lib style"
+
+Case Study:
+	- Short case study
+	
